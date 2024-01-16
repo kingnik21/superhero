@@ -10,8 +10,7 @@
 *{
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 nav{
@@ -49,12 +48,8 @@ label.logo{
 
 .headerList > li > a:hover{
     background: var(--hover--color);
-    -webkit-transition: .5s;
-    -o-transition: .5s;
     transition: .5s;
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 body{
@@ -63,8 +58,6 @@ body{
 
 #MarvelSuperHero{
     margin: 25px 25px 25px 25px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     background-color: var(--container--color);
     gap: none;
@@ -94,12 +87,8 @@ body{
 }
 
 .sub:hover{
-    -webkit-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
     transition: all .2s ease-in;
-    -webkit-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 
