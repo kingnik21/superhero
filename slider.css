@@ -1,0 +1,140 @@
+:root{
+    --main--color: #900C3F;
+    --main--bgcolor: #F94C10;
+    --hover--color: #F8DE22;
+    --text--color: #ffff;
+    --container--color : #C70039;
+    --black--color : #0a0a0a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+nav{
+    background: var(--main--color);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: var(--text--color);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.headerList{
+    float: right;
+    margin-right: 20px;
+}
+
+.headerList > li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.headerList > li > a {
+    color: var(--text--color);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.headerList > li > a:hover{
+    background: var(--hover--color);
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+body{
+    background-color: var(--main--bgcolor);
+}
+
+#MarvelSuperHero{
+    margin: 25px 25px 25px 25px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background-color: var(--container--color);
+    gap: none;
+    width: 95%;
+}
+
+.Main{
+    background-size: cover;
+    background-position: center;
+    margin: 30px 30px;
+    height: 25rem;
+    width: 35rem;
+    border: 1px solid var(--black--color);
+    color: var(--text--color);
+}
+
+.profile{
+    margin: 20px;
+}
+
+.sub{
+    margin: 30px 30px;
+    height: 5rem;
+    width: 4rem;
+    border: 1px solid black;
+    background-color: var(--text--color);
+}
+
+.sub:hover{
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
+}
+
+
+#spiderMan > .Main {
+    background-image: url(spider\ profile.jpeg);
+}
+
+#IronMan > .Main {
+    background-image: url(iron\ profile.jpeg);
+}
+
+#Hulk > .Main {
+    background-image: url(hulk\ profile.jpeg);
+}
+
+#CaptainAmerica > .Main {
+    background-image: url(cpatain\ profile.jpeg);
+}
+
+#Hawkeye > .Main {
+    background-image: url(hawk\ profile.jpeg);
+}
+
+#BlackWidow > .Main {
+    background-image: url(black\ profile.jpeg);
+}
+
+#ScarletWitch > .Main {
+    background-image: url(scarlet\ profile.jpeg);
+}
+
+#Vision > .Main {
+    background-image: url(vision\ profile.jpeg);
+}
+
+.hide {
+    display: none;
+}
